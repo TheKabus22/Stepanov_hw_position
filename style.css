@@ -1,0 +1,20 @@
+* {
+    box-sizing: border-box;
+}
+
+.products {
+    border: 2px solid red;
+}
+
+.nav {
+list-style-type: none;
+display: flex;
+}
+
+.nav li:not(:last-child) {
+    padding-right: 10px;
+}
+
+.items {
+    list-style-type: none;
+}
